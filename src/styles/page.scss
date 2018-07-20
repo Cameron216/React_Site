@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700');
+
+html, body, #app, .wrapper{
+    height: 100%;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1em;
+}
+
+.page{
+    float: left;
+    padding: 0 10px;
+}

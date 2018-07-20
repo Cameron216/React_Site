@@ -1,0 +1,31 @@
+@import 'variables';
+
+.nav{
+    float: left;
+    width: 250px;
+    height: 100%;
+    color: $white;
+    background-color: $bg-color;
+    
+    .nav_logo{
+        width: 200px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    nav .gen-nav{
+        display: none;
+    }
+
+    nav li{
+        &:hover{
+            color: red;
+            cursor: pointer;
+        }
+    }
+}
+
+[data-active="active"] ul.gen-nav{
+    display: block !important;
+}
+
